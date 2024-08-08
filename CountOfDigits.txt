@@ -1,0 +1,20 @@
+## SUM OF COUNT DIGITS
+
+s=input()
+count=0
+for i in range(0,len(s)):
+    if s[i].isdigit():
+        count+=1
+print(count)
+
+
+
+
+def check(n):
+    count=0
+    for i in range(0,len(n)):
+        if n[i].isdigit():
+            count+=1
+    return count
+n=input()
+print("the count is",check(n))        
